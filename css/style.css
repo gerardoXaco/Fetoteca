@@ -76,12 +76,12 @@ header {
 }
 
 h1 {
-	padding:132px 0 0 11px; 
+	padding:32px 0 0 11px; 
 	float:left;
 }
 	h1 a {
 		display:block; 
-		width:385px;
+		width:285px;
 		height:51px;
 		text-indent:-999em;
 		background:url(../images/logo.png) 0 0 no-repeat;
