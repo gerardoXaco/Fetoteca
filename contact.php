@@ -28,7 +28,8 @@ if(isset($_POST['name']))
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contacts</title>
+	<title>Malformaciones</title>
+	<link href='http://localhost/proyectofetoteca/images/favicon.png' rel='shortcut icon' type='image/png'>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
@@ -64,11 +65,11 @@ if(isset($_POST['name']))
 				<h1><a href="index.php">Principal</a></h1>
 				<nav>
 					<ul class="menu">
-						<li><a class="active" href="index.php">Principal</a></li>
-						<li><a href="index-1.php">Tema 1</a></li>
-						<li><a href="index-2.php">Tema 2</a></li>
-						<li><a href="index-3.php">Tema 3</a></li>
-						<li><a href="contact.php">Tema 4</a></li>
+						<li><a href="index.php">Principal</a></li>
+						<li><a href="index-1.php">Desarrollo embrionario</a></li>
+						<li><a href="index-2.php">Desarrollo fetal</a></li>
+						<li><a href="index-3.php">Embarazo gemelar</a></li>
+						<li><a class="active" href="contact.php">Malformaciones</a></li>
 						<?php 
 							if (isset($_SESSION['nivel'])) {
 								if($_SESSION['nivel']==0){
@@ -88,11 +89,11 @@ if(isset($_POST['name']))
 			<div class="zerogrid">
 				<!--<div class="row">-->
 					<!--<article class="col-2-3"><div class="wrap-col">-->
-						<h3>Tema 4</h3>
+						<h3>Malformaciones</h3>
 						<h6 class="prev-indent-bot">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </h6>
 						<p class="indent-bot">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
 						<div class="wrapper p2">
-							<div class="col-1-3"><figure class="img-indent"><img src="images/slider-img1.jpg" alt=""></figure></div> 
+							<div class="col-1-3"><figure class="img-indent"><img src="images/malformacion.jpg" alt=""></figure></div> 
 							<div class="col-2-3 extra-wrap">
 								<ul class="list-1">
 									<li><a href="#">Eirmod tempor invidunt ut labore et dolore magna.</a></li>

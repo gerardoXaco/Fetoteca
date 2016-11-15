@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Tema 1</title>
+	<title>Desarrollo embrionario</title>
+	<link href='http://localhost/proyectofetoteca/images/favicon.png' rel='shortcut icon' type='image/png'>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
@@ -40,11 +41,11 @@
 				<h1><a href="index.php">Principal</a></h1>
 				<nav>
 					<ul class="menu">
-						<li><a class="active" href="index.php">Principal</a></li>
-						<li><a href="index-1.php">Tema 1</a></li>
-						<li><a href="index-2.php">Tema 2</a></li>
-						<li><a href="index-3.php">Tema 3</a></li>
-						<li><a href="contact.php">Tema 4</a></li>
+						<li><a href="index.php">Principal</a></li>
+						<li><a class="active" href="index-1.php">Desarrollo embrionario</a></li>
+						<li><a href="index-2.php">Desarrollo fetal</a></li>
+						<li><a href="index-3.php">Embarazo gemelar</a></li>
+						<li><a href="contact.php">Malformaciones</a></li>
 						<?php 
 							if (isset($_SESSION['nivel'])) {
 								if($_SESSION['nivel']==0){
@@ -65,7 +66,7 @@
 			<div class="zerogrid">
 				<!--<div class="row">-->
 					<!--<article class="col-2-3"><div class="wrap-col">-->
-						<h3>Tema 1</h3>
+						<h3>Desarrollo embrionario</h3>
 						<h6 class="prev-indent-bot">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </h6>
 						<p class="indent-bot">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
 						<div class="wrapper p2">

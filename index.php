@@ -5,6 +5,7 @@
 <html lang="en">
 <head>
 	<title>Principal</title>
+	<link href='http://localhost/proyectofetoteca/images/favicon.png' rel='shortcut icon' type='image/png'>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
@@ -57,10 +58,10 @@
 				<nav>
 					<ul class="menu">
 						<li><a class="active" href="index.php">Principal</a></li>
-						<li><a href="index-1.php">Tema 1</a></li>
-						<li><a href="index-2.php">Tema 2</a></li>
-						<li><a href="index-3.php">Tema 3</a></li>
-						<li><a href="contact.php">Tema 4</a></li>
+						<li><a href="index-1.php">Desarrollo embrionario</a></li>
+						<li><a href="index-2.php">Desarrollo fetal</a></li>
+						<li><a href="index-3.php">Embarazo gemelar</a></li>
+						<li><a href="contact.php">Malformaciones</a></li>
 						<?php 
 							if (isset($_SESSION['nivel'])) {
 								if($_SESSION['nivel']==0){
@@ -80,6 +81,7 @@
 						<li><img src="images/slider-img1.jpg" alt="" /></li>
 						<li><img src="images/slider-img2.jpg" alt="" /></li>
 						<li><img src="images/slider-img3.jpg" alt="" /></li>
+						<li><img src="images/slider-img4.jpeg" alt="" /></li>
 					</ul>
 				</div>
 		    </div>
